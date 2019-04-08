@@ -18,6 +18,12 @@ p {
   line-height: 1.5;
 }
 
+.big-heading2 {
+  font-family: "Montserrat-Black";
+  font-size: 2.4rem;
+  line-height: 1.5;
+}
+
 .section-heading {
   font-size: 3rem;
   line-height: 1.5;
@@ -88,6 +94,7 @@ p {
 
 .feature-box {
   padding: 4.5%;
+  height: 200px
 }
 
 .icon {
@@ -107,10 +114,6 @@ p {
 .testimonial-text {
   font-size: 1.5em;
   line-height: 1.5;
-}
-
-#login {
-  padding: 100px;
 }
 
 /* CTA Section */
@@ -135,7 +138,16 @@ p {
   font-size: 125%;
   color: #fff;
   position: relative;
-  min-height: 75%;
+  height: 30px;
+  width: 100%;
+}
+
+.signin {
+  text-align: center;
+  font-size: 125%;
+  color: #fff;
+  position: relative;
+  height: 30px;
   width: 100%;
 }
 
@@ -143,10 +155,66 @@ p {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  background: rgba(0, 0, 0, 0.7);
+  /* background: rgba(0, 0, 0, 0.7); */
 }
 
-#project {
+#about {
+  padding: 100px;
+  background-color: white;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about2 {
   background-color: #ff4c68;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#textcolor {
   color: white;
+}
+
+#white {
+  height: 5px;
+}
+
+#h2{
+  color: #8f8f8f;
+}
+
+hr {
+  height: 10px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
